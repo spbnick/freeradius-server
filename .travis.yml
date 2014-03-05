@@ -13,12 +13,12 @@ addons:
   coverity_scan:
     project:
       name: FreeRADIUS/freeradius-server
-      version: v3.0.x
+      version: master
       description: The FreeRADIUS server project   
     notification_email: freeradius-devel@lists.freeradius.org
     build_command_prepend: ./configure
     build_command: make
-    branch_pattern: coverity_*
+    branch_pattern: coverity_master
 before_install:
   - sudo apt-get update -qq
   - > 
