@@ -12,7 +12,7 @@ env:
 addons:
   coverity_scan:
     project:
-      name: FreeRADIUS/freeradius-server
+      name: freeradius
       version: v3.0.x
       description: The FreeRADIUS server project   
     notification_email: freeradius-devel@lists.freeradius.org
